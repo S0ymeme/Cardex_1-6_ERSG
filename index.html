@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniería en Sistemas Computacionales - UPT</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="container">
+        <h1>Ingeniería en Sistemas Computacionales</h1>
+        <h2>Universidad Politécnica de Tulancingo</h2>
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Seleccionar Cuatrimestre</button>
+            <div class="dropdown-content">
+                <a href="#primer-cuatrimestre">Primer Cuatrimestre</a>
+                <a href="#segundo-cuatrimestre">Segundo Cuatrimestre</a>
+                <a href="#tercer-cuatrimestre">Tercer Cuatrimestre</a>
+                <a href="#cuarto-cuatrimestre">Cuarto Cuatrimestre</a>
+                <a href="#quinto-cuatrimestre">Quinto Cuatrimestre</a>
+                <a href="#sexto-cuatrimestre">Sexto Cuatrimestre</a>
+            </div>
+        </div>
+
+        <div class="cycle">
+            <div class="cycle-title">PRIMER CICLO DE FORMACIÓN</div>
+            <div class="semester-grid">
+                <div class="semester">
+                    <div class="semester-title" id="primer-cuatrimestre">Primer Cuatrimestre</div>
+                    <div class="course" style="background-color: #e6ffe6;">
+                        <img src="imagenes/ingles1.jpg" width="100" height="100" align="center"> <br>
+                        <span class="course-title">INGLÉS I</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">IN1-LC</span>
+                        <div class="course-description">Introducción al idioma inglés, enfocado en habilidades básicas de comunicación, además de incluir vocabulario básico y reglas gramaticales.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/quimica1.jpg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">QUÍMICA BÁSICA</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">QUB-FC</span>
+                        <div class="course-description">Principios básicos de la quimica, además de todos los elementos de la tabla periódica y composiciones de las mismas.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/algebra1.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">ÁLGEBRA LINEAL</span>
+                        <span class="course-hours">6-60-7</span><br>
+                        <span class="course-code">ALL-FC</span>
+                        <div class="course-description">Se estudian matrices, vectores, espacios vectoriales, sistemas de ecuaciones lineales y transformaciones lineales, entre otros temas relacionados.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/prog1.jpg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">INTRODUCCIÓN A LA PROGRAMACIÓN</span>
+                        <span class="course-hours">6-60-7</span><br>
+                        <span class="course-code">INP-FC</span>
+                        <div class="course-description">Curso de inicio a los conceptos básicos de programación, donde se abordan temas como lógica, algoritmos, y estructuras de control.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/tic1.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">INTRODUCCIÓN A LAS TECNOLOGÍAS DE INFORMACIÓN</span>
+                        <span class="course-hours">4-60-4</span><br>
+                        <span class="course-code">ITI-FC</span>
+                        <div class="course-description">Exploración de los fundamentos de las TI, incluyendo hardware, software, redes y su papel en los sistemas de información.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/ofimatica1.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">HERRAMIENTAS OFIMÁTICAS</span>
+                        <span class="course-hours">4-60-4</span><br>
+                        <span class="course-code">HEO-LC</span>
+                        <div class="course-description">Capacitación en el uso de software de oficina, como procesadores de texto, hojas de cálculo y programas de presentaciones.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #ffe4b5;">
+                        <img src="imagenes/eoye1.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">EXPRESIÓN ORAL Y ESCRITA I</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">EOH-LC</span>
+                        <div class="course-description">Desarrollo de habilidades de comunicación oral y escrita en español, con un enfoque en la claridad y efectividad.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                </div>
+                <div class="semester">
+                    <div class="semester-title" id="segundo-cuatrimestre">Segundo Cuatrimestre</div>
+                    <div class="course" style="background-color: #e6ffe6;">
+                        <img src="imagenes/ingles2.jpg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">INGLÉS II</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">IN2-LC</span>
+                        <div class="course-description">Continuación del desarrollo en el aprendizaje del inglés, avanzando en las habilidades de comunicación.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #ffe4b5;">
+                        <img src="imagenes/valores2.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">DESARROLLO HUMANO Y VALORES</span>
+                        <span class="course-hours">3-60-4</span><br>
+                        <span class="course-code">DHV-CE</span>
+                        <div class="course-description">Estudio de la ética, la responsabilidad y el crecimiento personal dentro del entorno profesional y social.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/funciones2.jpg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">FUNCIONES MATEMÁTICAS</span>
+                        <span class="course-hours">4-75-5</span><br>
+                        <span class="course-code">FUM-FC</span>
+                        <div class="course-description">Curso enfocado en funciones matemáticas básicas aplicables a la ingeniería y las ciencias.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/fisica2.jpg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">FÍSICA</span>
+                        <span class="course-hours">4-75-5</span><br>
+                        <span class="course-code">FIS-FC</span>
+                        <div class="course-description">Introducción a los conceptos fundamentales de la física, tales como la mecánica y las leyes del movimiento.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/electricidad2.jpg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">ELECTRICIDAD Y MAGNETISMO</span>
+                        <span class="course-hours">3-60-4</span><br>
+                        <span class="course-code">ELM-FC</span>
+                        <div class="course-description">Estudio de los principios de la electricidad y el magnetismo, incluyendo conceptos como corriente, voltaje, y campos magnéticos.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/mate2.jpg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">MATEMÁTICAS BÁSICAS PARA COMPUTACIÓN</span>
+                        <span class="course-hours">8-120-8</span><br>
+                        <span class="course-code">MBC-FC</span>
+                        <div class="course-description">Curso de matemáticas aplicadas al ámbito de la computación, incluyendo álgebra y cálculo básico.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/arqui2.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">ARQUITECTURA DE COMPUTADORAS</span>
+                        <span class="course-hours">8-120-8</span><br>
+                        <span class="course-code">ARC-FC</span>
+                        <div class="course-description">Estudio de los componentes internos de una computadora, incluyendo procesadores, memoria y sistemas de almacenamiento.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                </div>
+                <div class="semester">
+                    <div class="semester-title" id="tercer-cuatrimestre">Tercer Cuatrimestre</div>
+                    <div class="course" style="background-color: #e6ffe6;">
+                        <img src="imagenes/ingles3.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">INGLÉS III</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">IN3-LC</span>
+                        <div class="course-description">Continuación del aprendizaje del inglés, aumentando el nivel de complejidad en las habilidades comunicativas.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #ffe4b5;">
+                        <img src="imagenes/inteligencia3.jpg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">INTELIGENCIA EMOCIONAL Y MANEJO DE CONFLICTOS</span>
+                        <span class="course-hours">3-60-4</span><br>
+                        <span class="course-code">IEM-CE</span>
+                        <div class="course-description">Desarrollo de habilidades para gestionar emociones y resolver conflictos en el ámbito personal y profesional.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/calc3.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">CÁLCULO DIFERENCIAL</span>
+                        <span class="course-hours">4-75-5</span><br>
+                        <span class="course-code">CAD-FC</span>
+                        <div class="course-description">Introducción al cálculo diferencial, abarcando límites, derivadas y aplicaciones.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/estadistica3.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">PROBABILIDAD Y ESTADÍSTICA</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">PRE-FC</span>
+                        <div class="course-description">Curso básico de estadística y probabilidad, aplicados a la toma de decisiones y análisis de datos.</div>
+                        <div class="course-grade">Calificación: 8</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/prog3.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">PROGRAMACIÓN</span>
+                        <span class="course-hours">7-120-8</span><br>
+                        <span class="course-code">PRO-FC</span>
+                        <div class="course-description">Curso que se adentra más en técnicas de programación, estructuras de datos y desarrollo de software.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/redes3.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">INTRODUCCIÓN A REDES</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">INR-FC</span>
+                        <div class="course-description"> Fundamentos de redes de computadoras, incluyendo modelos de referencia y tecnologías de comunicación.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/mant3.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">MANTENIMIENTO A EQUIPO DE CÓMPUTO</span>
+                        <span class="course-hours">5-75-6</span><br>
+                        <span class="course-code">MEC-FC</span>
+                        <div class="course-description">Enseñanza de técnicas para el mantenimiento y reparación de equipos de cómputo.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cycle">
+            <div class="cycle-title">SEGUNDO CICLO DE FORMACIÓN</div>
+            <div class="semester-grid">
+                <div class="semester">
+                    <div class="semester-title" id="cuarto-cuatrimestre">Cuarto Cuatrimestre</div>
+                    <div class="course" style="background-color: #e6ffe6;">
+                        <img src="imagenes/ingles4.jpg" width="150" height="150" align="center"> <br> <br>
+                        <span class="course-title">INGLÉS IV</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">IN4-LC</span>
+                        <div class="course-description">Nivel avanzado de inglés, mejorando tanto las habilidades orales como escritas.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #ffe4b5;">
+                        <img src="imagenes/habilidades4.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">HABILIDADES COGNITIVAS Y CREATIVIDAD</span>
+                        <span class="course-hours">3-60-4</span><br>
+                        <span class="course-code">HCC-CE</span>
+                        <div class="course-description">Fomento de la creatividad y el desarrollo de habilidades cognitivas para la resolución de problemas.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/integral4.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">CÁLCULO INTEGRAL</span>
+                        <span class="course-hours">4-60-4</span><br>
+                        <span class="course-code">CAI-FC</span>
+                        <div class="course-description">Curso que continúa con el estudio del cálculo, centrándose en las integrales y sus aplicaciones.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #90ee90;">
+                        <img src="imagenes/is4.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">INGENIERÍA DE SOFTWARE</span>
+                        <span class="course-hours">5-75-5</span><br>
+                        <span class="course-code">INS-FT</span>
+                        <div class="course-description">Introducción a los principios de desarrollo de software, incluyendo el ciclo de vida y las metodologías.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #90ee90;">
+                        <img src="imagenes/estructura.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">ESTRUCTURA DE DATOS</span>
+                        <span class="course-hours">7-105-7</span><br>
+                        <span class="course-code">ESD-FC</span>
+                        <div class="course-description">Estudio de cómo organizar y manipular datos eficientemente utilizando diversas estructuras.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #90ee90;">
+                        <img src="imagenes/ruteo4.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">RUTEO Y CONMUTACIÓN</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">RUC-FT</span>
+                        <div class="course-description">Fundamentos de redes avanzadas, abarcando el ruteo y la conmutación de paquetes de datos.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #90ee90;">
+                        <img src="imagenes/espec4.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">ESTANCIA I</span>
+                        <span class="course-hours">0-120-8</span><br>
+                        <span class="course-code">ESI-FT</span>
+                        <div class="course-description">Estancia realizada con el doctor José Alberto Delgado Atencio, el cual tuvo enfasis en la investigación de el funcionamiento de la luz y sus derivados.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                </div>
+                <div class="semester">
+                    <div class="semester-title" id="quinto-cuatrimestre">Quinto Cuatrimestre</div>
+                    <div class="course" style="background-color: #e6ffe6;">
+                        <img src="imagenes/ingles5.jpeg" width="150" height="150" align="center"> <br> <br>
+                        <span class="course-title">INGLÉS V</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">IN5-LC</span>
+                        <div class="course-description">Curso avanzado de inglés para mejorar las habilidades necesarias para el ámbito profesional.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #ffe4b5;">
+                        <img src="imagenes/etica5.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">ÉTICA PROFESIONAL</span>
+                        <span class="course-hours">3-60-4</span><br>
+                        <span class="course-code">ETP-CE</span>
+                        <div class="course-description">Curso que se enfoca en los principios éticos en la práctica profesional, fomentando la responsabilidad y el respeto.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/ing5.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">MATEMÁTICAS PARA INGENIERÍA I</span>
+                        <span class="course-hours">4-75-5</span><br>
+                        <span class="course-code">MI1-FC</span>
+                        <div class="course-description">Curso avanzado de matemáticas orientado a problemas y aplicaciones de la ingeniería.</div>
+                        <div class="course-grade">Calificación: 7</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/fis5.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">FÍSICA PARA INGENIERÍA</span>
+                        <span class="course-hours">4-75-5</span><br>
+                        <span class="course-code">FII-FC</span>
+                        <div class="course-description">Curso de física con un enfoque práctico para la resolución de problemas de ingeniería.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #90ee90;">
+                        <img src="imagenes/poo5.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">FUNDAMENTOS DE PROGRAMACIÓN ORIENTADA A OBJETOS</span>
+                        <span class="course-hours">6-30-6</span><br>
+                        <span class="course-code">FPO-FT</span>
+                        <div class="course-description">Introducción a la programación orientada a objetos, con conceptos como clases, objetos y herencia.</div>
+                        <div class="course-grade">Calificación: 8</div>
+                    </div>
+                    <div class="course" style="background-color: #90ee90;">
+                        <img src="imagenes/redes5.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">ESCALAMIENTO DE REDES</span>
+                        <span class="course-hours">5-75-6</span><br>
+                        <span class="course-code">ESR-FT</span>
+                        <div class="course-description">Curso sobre la expansión de redes, diseño y optimización para manejar más dispositivos y tráfico.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #90ee90;">
+                        <img src="imagenes/bd5.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">BASE DE DATOS</span>
+                        <span class="course-hours">7-120-8</span><br>
+                        <span class="course-code">BAD-FT</span>
+                        <div class="course-description">Estudio de los conceptos fundamentales en bases de datos, como diseño, implementación y consultas SQL.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                </div>
+                <div class="semester">
+                    <div class="semester-title" id="sexto-cuatrimestre">Sexto Cuatrimestre</div>
+                    <div class="course" style="background-color: #e6ffe6;">
+                        <img src="imagenes/ingles6.jpeg" width="150" height="150" align="center"> <br> <br>
+                        <span class="course-title">INGLÉS VI</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">IN6-LC</span>
+                        <div class="course-description">Curso de inglés, donde se perfeccionan las habilidades de comunicación en un contexto profesional.</div>
+                        <div class="course-grade">Calificación: 8</div>
+                    </div>
+                    <div class="course" style="background-color: #ffe4b5;">
+                        <img src="imagenes/gerenciales5.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">HABILIDADES GERENCIALES</span>
+                        <span class="course-hours">3-60-4</span><br>
+                        <span class="course-code">HAG-CE</span>
+                        <div class="course-description">Curso sobre liderazgo, toma de decisiones y gestión en equipos de trabajo.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #d2b48c;">
+                        <img src="imagenes/ing6.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">MATEMÁTICAS PARA INGENIERÍA II</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">MI2-FC</span>
+                        <div class="course-description">Continuación de las matemáticas aplicadas a la ingeniería, abarcando temas más avanzados.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #90ee90;">
+                        <img src="imagenes/sis6.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">SISTEMAS OPERATIVOS</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">SIO-FT</span>
+                        <div class="course-description">Estudio de los sistemas operativos, su funcionamiento, administración y uso eficiente.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                    <div class="course" style="background-color: #90ee90;">
+                        <img src="imagenes/poo6.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">PROGRAMACIÓN ORIENTADA A OBJETOS</span>
+                        <span class="course-hours">5-30-6</span><br>
+                        <span class="course-code">POO-FT</span>
+                        <div class="course-description">Curso avanzado sobre programación orientada a objetos, abarcando técnicas más complejas de desarrollo.</div>
+                        <div class="course-grade">Calificación: 10</div>
+                    </div>
+                    <div class="course" style="background-color: #90ee90;">
+                        <img src="imagenes/redes6.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">INTERCONEXIÓN DE REDES</span>
+                        <span class="course-hours">5-75-6</span><br>
+                        <span class="course-code">INR-FT</span>
+                        <div class="course-description">Curso sobre el funcionamiento de la interconexión de redes y los protocolos que la soportan.</div>
+                        <div class="course-grade">Calificación: 8</div>
+                    </div>
+                    <div class="course" style="background-color: #90ee90;">
+                        <img src="imagenes/bd6.jpeg" width="150" height="100" align="center"> <br> <br>
+                        <span class="course-title">ADMINISTRACIÓN DE BASE DE DATOS</span>
+                        <span class="course-hours">6-60-7</span><br>
+                        <span class="course-code">ABD-FT</span>
+                        <div class="course-description">Gestión y administración de bases de datos, enfocándose en seguridad, optimización y rendimiento.</div>
+                        <div class="course-grade">Calificación: 9</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js">
+        
+    </script>
+
+</body>
+</html>
